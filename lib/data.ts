@@ -125,9 +125,25 @@ export const products: Product[] = [
     id: 16,
     name: "UX Writing & Content Strategy",
     description: "Craft clear and effective UX copy for your interface. We'll develop a consistent voice and tone, create microcopy guidelines, and optimize content for better user engagement.",
-    price: 9950000,
+    price: 995000,
     image: "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c",
     category: "UX Writing",
+  },
+  {
+    id: 17,
+    name: "Logo Design Basic",
+    description: "Get a simple yet effective logo for your startup or small business. Package includes 2 initial concepts, 2 revision rounds, and final files in various formats for your use.",
+    price: 200000,
+    image: "https://images.unsplash.com/photo-1626785774573-4b799315345d",
+    category: "Logo Design",
+  },
+  {
+    id: 18,
+    name: "Social Media Logo Package",
+    description: "Perfect for social media presence. Get a simple logo with social media-optimized versions, including profile pictures, headers, and story highlights icons.",
+    price: 450000,
+    image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113",
+    category: "Logo Design",
   },
 ];
 
