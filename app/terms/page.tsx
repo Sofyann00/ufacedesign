@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Terms of Service - PT SINAR TEKNOLOGI SOLUSI',
-  description: 'Terms of Service and conditions for using Beamscode services',
+  title: 'Terms of Service - PT CERITA LAMA INDONESIA',
+  description: 'Terms of Service and conditions for using Ufacedesign services',
 }
 
 export default function TermsPage() {
@@ -23,7 +23,7 @@ export default function TermsPage() {
                 1. Agreement to Terms
               </h2>
               <p className="text-muted-foreground">
-                By accessing and using the services provided by PT SINAR TEKNOLOGI SOLUSI (hereinafter referred to as &quot;Beamscode&quot;), you accept and agree to be bound by the terms and provisions of this agreement.
+                By accessing and using the services provided by PT CERITA LAMA INDONESIA (hereinafter referred to as &quot;Ufacedesign&quot;), you accept and agree to be bound by the terms and provisions of this agreement.
               </p>
             </div>
 
@@ -32,7 +32,7 @@ export default function TermsPage() {
                 2. Products and Services
               </h2>
               <p className="text-muted-foreground">
-                Beamscode provides authentic sneakers and related footwear products. All product listings, including prices, availability, and specifications, are subject to change without prior notice. We guarantee the authenticity of all products sold through our platform.
+                Ufacedesign provides authentic sneakers and related footwear products. All product listings, including prices, availability, and specifications, are subject to change without prior notice. We guarantee the authenticity of all products sold through our platform.
               </p>
             </div>
 
@@ -59,7 +59,7 @@ export default function TermsPage() {
                 5. Limitation of Liability
               </h2>
               <p className="text-muted-foreground">
-                While we guarantee product authenticity, Beamscode shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of our services, including but not limited to sizing issues or personal preferences.
+                While we guarantee product authenticity, Ufacedesign shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of our services, including but not limited to sizing issues or personal preferences.
               </p>
             </div>
 
@@ -79,12 +79,12 @@ export default function TermsPage() {
               <div className="text-muted-foreground">
                 <p>For any questions about these Terms of Service, please contact us at:</p>
                 <div className="mt-2">
-                  <p>PT SINAR TEKNOLOGI SOLUSI</p>
+                  <p>PT CERITA LAMA INDONESIA</p>
                   <p>Komplek Perkantoran Duta Merlin Blok F13</p>
                   <p>Jalan Gajah Mada, Petojo Utara</p>
                   <p>Gambir, Jakarta Pusat</p>
                   <p>DKI Jakarta, Indonesia</p>
-                  <p>Email: admin@beamscoding.com</p>
+                  <p>Email: admin@Ufacedesign.com</p>
                   <p>Phone: (021) 50111528</p>
                 </div>
               </div>

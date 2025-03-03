@@ -54,74 +54,75 @@ export default function Home() {
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
-      <section className="px-4 py-52 text-center relative overflow-hidden">
-        {/* Primary gradient background */}
-        <div className="absolute inset-0 bg-gradient-to-b from-background via-background/90 to-muted" />
-        
-        {/* Animated background */}
-        <div className="absolute inset-0 bg-[url('/sport_bg.jpg')] bg-cover bg-center opacity-30 animate-pulse-slow" />
-        
-        {/* Gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-tr from-primary/10 via-transparent to-secondary/10" />
-        
-        {/* Radial gradient mask */}
-        <div className="absolute inset-0 [mask-image:radial-gradient(circle_at_center,white,transparent_80%)]">
-          {/* Animated dots pattern */}
-          <div className="absolute inset-0 bg-[url('/dots.png')] bg-repeat opacity-20 animate-float" />
+      <section className="min-h-screen relative flex items-center justify-center overflow-hidden bg-gradient-to-b from-background to-primary/5">
+        {/* Animated background elements */}
+        <div className="absolute inset-0">
+          <div className="absolute inset-0 bg-grid-white bg-[size:40px_40px] [mask-image:radial-gradient(white,transparent_85%)]" />
+          <div className="absolute inset-0 flex items-center justify-center">
+            <div className="h-[500px] w-[500px] rounded-full bg-primary/20 blur-3xl animate-pulse" />
+          </div>
         </div>
 
-        <div className="max-w-4xl mx-auto relative">
-          <h1 className="text-5xl font-bold tracking-tight sm:text-7xl animate-in fade-in slide-in-from-bottom-4 duration-1000">
-            Design Experiences That Matter
-          </h1>
-          <p className="mt-8 text-xl leading-8 text-muted-foreground max-w-2xl mx-auto animate-in fade-in slide-in-from-bottom-5 duration-1000 delay-200">
-            Transform your digital products with human-centered design. We create intuitive, 
-            beautiful interfaces that engage users and drive business growth.
-          </p>
-          <div className="mt-12 flex items-center justify-center gap-x-6">
-            <Link href="/marketplace">
-              <Button size="lg" className="group transition-all duration-300 hover:scale-105">
-                View Services
-                <ChevronRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-              </Button>
-            </Link>
+        <div className="relative z-10 container px-4 md:px-6">
+          <div className="grid gap-6 lg:grid-cols-[1fr_400px] items-center">
+            {/* Content */}
+            <div className="flex flex-col gap-4">
+              <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary-foreground animate-gradient">
+                Crafting Digital Experiences That Matter
+              </h1>
+              <p className="max-w-[600px] text-muted-foreground md:text-xl">
+                We transform ideas into exceptional digital products through human-centered design, creating intuitive experiences that users love.
+              </p>
+              <div className="flex flex-col gap-3 min-[400px]:flex-row">
+                <Link href="/marketplace">
+                  <Button size="lg" className="group relative overflow-hidden">
+                    <span className="relative z-10">Explore Services</span>
+                    <div className="absolute inset-0 bg-primary-foreground transform translate-y-full group-hover:translate-y-0 transition-transform" />
+                  </Button>
+                </Link>
+              </div>
+            </div>
+            
+            {/* 3D Animation or Illustration */}
+            <div className="relative aspect-square">
+              <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-secondary/20 rounded-full blur-2xl animate-pulse" />
+              <div className="relative z-10">
+                {/* Add a 3D illustration or animation here */}
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
       {/* Product Carousel Section */}
-      <section className="py-32 relative overflow-hidden">
-        {/* Background gradient */}
-        <div className="absolute inset-0 bg-gradient-to-b from-muted/50 via-background to-background" />
-        
-        {/* Subtle pattern overlay */}
-        <div className="absolute inset-0 bg-[url('/noise.png')] opacity-[0.15] mix-blend-overlay" />
-        
-        <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl lg:text-center mb-16">
-            <h2 className="text-base font-semibold leading-7 text-primary">Our Services</h2>
-            <p className="mt-2 text-4xl font-bold tracking-tight sm:text-5xl">
-              Design Solutions That Scale
+      <section className="py-24 relative overflow-hidden bg-secondary/5">
+        <div className="container px-4 md:px-6">
+          <div className="flex flex-col items-center gap-4 text-center">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+              Our Services
+            </h2>
+            <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
+              Comprehensive design solutions tailored to your needs
             </p>
           </div>
           
-          <div ref={sliderRef} className="keen-slider">
+          <div ref={sliderRef} className="keen-slider mt-12">
             {products.map((product) => (
               <div key={product.id} className="keen-slider__slide">
-                <Card className="border-0">
-                  <CardContent className="p-4">
-                    <div className="aspect-square relative overflow-hidden rounded-lg">
+                <Card className="group relative overflow-hidden border-0 bg-background/50 backdrop-blur-sm">
+                  <CardContent className="p-6">
+                    <div className="aspect-square relative overflow-hidden rounded-lg mb-4">
                       <Image
                         src={product.image}
                         alt={product.name}
                         fill
-                        className="object-cover"
+                        className="object-cover transition-transform group-hover:scale-110"
                       />
+                      <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
                     </div>
-                    <div className="mt-4">
-                      <h3 className="font-semibold">{product.name}</h3>
-                      <p className="text-sm text-muted-foreground mt-1">{formatPrice(product.price)}</p>
-                    </div>
+                    <h3 className="text-xl font-semibold">{product.name}</h3>
+                    <p className="mt-2 text-sm text-muted-foreground line-clamp-2">{product.description}</p>
+                    <p className="mt-4 font-semibold text-primary">{formatPrice(product.price)}</p>
                   </CardContent>
                 </Card>
               </div>
@@ -131,34 +132,21 @@ export default function Home() {
       </section>
 
       {/* Features Section */}
-      <section className="py-32 sm:py-40 relative overflow-hidden">
-        {/* Gradient background */}
-        <div className="absolute inset-0 bg-gradient-to-tr from-background via-background to-muted/20" />
-        
-        {/* Animated glow effect */}
-        <div className="absolute inset-0 bg-gradient-radial from-primary/5 via-transparent to-transparent animate-pulse-slow" />
-        
-        <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl lg:text-center">
-            <h2 className="text-base font-semibold leading-7 text-primary">Our Expertise</h2>
-            <p className="mt-2 text-4xl font-bold tracking-tight sm:text-5xl">
-              Built for Performance
-            </p>
-          </div>
-          <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
-            <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
-              {features.map((feature) => (
-                <div key={feature.name} className="flex flex-col">
-                  <dt className="flex items-center gap-x-3 text-base font-semibold leading-7">
+      <section className="py-24 relative overflow-hidden">
+        <div className="container px-4 md:px-6">
+          <div className="grid gap-12 lg:grid-cols-3">
+            {features.map((feature) => (
+              <div key={feature.name} className="relative group">
+                <div className="absolute inset-0 bg-gradient-to-r from-primary/10 to-secondary/10 rounded-2xl -rotate-6 group-hover:rotate-0 transition-transform" />
+                <div className="relative bg-card p-6 rounded-xl border shadow-lg">
+                  <div className="mb-4 inline-flex items-center justify-center rounded-lg bg-primary/10 p-3">
                     {feature.icon}
-                    {feature.name}
-                  </dt>
-                  <dd className="mt-4 flex flex-auto flex-col text-base leading-7 text-muted-foreground">
-                    <p className="flex-auto">{feature.description}</p>
-                  </dd>
+                  </div>
+                  <h3 className="text-xl font-semibold mb-2">{feature.name}</h3>
+                  <p className="text-muted-foreground">{feature.description}</p>
                 </div>
-              ))}
-            </dl>
+              </div>
+            ))}
           </div>
         </div>
       </section>

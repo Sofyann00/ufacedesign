@@ -14,7 +14,6 @@ export function Footer() {
                 alt="UFaceDesign Logo"
                 width={32}
                 height={32}
-                className="brightness-0 invert"
               />
               <span className="text-xl font-bold">UFaceDesign</span>
             </div>
@@ -65,10 +64,10 @@ export function Footer() {
               <div className="space-y-2">
                 <p>
                   <a
-                    href="mailto:admin@beamscoding.com"
+                    href="mailto:admin@ufacedesign.com"
                     className="hover:text-foreground transition-colors"
                   >
-                    admin@beamscoding.com
+                    admin@ufacedesign.com
                   </a>
                 </p>
                 <p>
@@ -88,12 +87,11 @@ export function Footer() {
             <h3 className="text-lg font-semibold mb-6">Office Location</h3>
             <div className="text-sm text-muted-foreground">
               <p className="leading-relaxed">
-                Menara Sudirman, Lantai 8,<br />
-                Jalan Jenderal Sudirman Kav. 60,<br />
-                Senayan, Kebayoran Baru,<br />
-                Jakarta Selatan,<br />
-                DKI Jakarta,<br />
-                Kode Pos: 12190
+                Gedung Is Plaza Lt. 5,<br />
+                Jl Pramuka Kav 150,<br />
+                Utan Kayu Utara, Matraman,<br />
+                Jakarta Timur,<br />
+                13120
               </p>
             </div>
           </div>
@@ -101,7 +99,7 @@ export function Footer() {
           {/* Copyright section */}
           <div className="col-span-1 md:col-span-4 mt-16 pt-8 border-t">
             <p className="text-sm text-muted-foreground text-center">
-              © {new Date().getFullYear()} PT SINAR TEKNOLOGI SOLUSI.
+              © {new Date().getFullYear()} PT CERITA LAMA INDONESIA.
             </p>
           </div>
         </div>

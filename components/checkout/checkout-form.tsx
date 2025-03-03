@@ -235,9 +235,9 @@ export function CheckoutForm() {
               {formatTime(timeLeft)}
             </div>
             <div className="text-center space-y-2">
-              <p className="font-semibold">BRI</p>
-              <p className="font-mono text-xl">119201000454302</p>
-              <div className="text-center mb-2">PT SINAR TEKNOLOGI SOLUSI</div>
+              <p className="font-semibold">MANDIRI</p>
+              <p className="font-mono text-xl">1640006458980</p>
+              <div className="text-center mb-2">PT CERITA LAMA INDONESIA</div>
             </div>
             <Button 
               onClick={() => {

@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'About Us - Beamscoding',
-  description: 'Learn about Beamscoding, your trusted IT solutions partner in Indonesia',
+  title: 'About Us - Ufacedesign',
+  description: 'Learn about Ufacedesign, your trusted UI/UX Design Partner in Indonesia',
 }
 
 export default function AboutPage() {
@@ -11,10 +11,10 @@ export default function AboutPage() {
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-card p-8 rounded-lg shadow">
           <h1 className="text-3xl font-bold text-foreground mb-4">
-            About Beamscoding
+            About Ufacedesign
           </h1>
           <p className="text-sm text-muted-foreground italic mb-8">
-            Your Trusted IT Solutions Partner in Indonesia
+            Your Trusted UI/UX Design Partner in Indonesia
           </p>
 
           <section className="space-y-8">
@@ -23,7 +23,7 @@ export default function AboutPage() {
                 Our Story
               </h2>
               <p className="text-muted-foreground">
-                Founded with a commitment to digital excellence, Beamscoding has emerged as a leading IT solutions provider in Indonesia. Our journey began with a clear vision: to help businesses transform and thrive in the digital age through innovative technology solutions and expert services.
+                Founded with a passion for creating exceptional digital experiences, Ufacedesign has emerged as a leading UI/UX design studio in Indonesia. Our journey began with a clear vision: to help businesses connect with their users through intuitive, beautiful, and user-centered design solutions that drive engagement and satisfaction.
               </p>
             </div>
 
@@ -32,12 +32,12 @@ export default function AboutPage() {
                 Why Choose Us
               </h2>
               <ul className="text-muted-foreground list-disc pl-5 space-y-2">
-                <li>Expert Development Team</li>
-                <li>Custom Software Solutions</li>
-                <li>Agile Development Methodology</li>
-                <li>Comprehensive IT Consulting</li>
-                <li>Reliable Technical Support</li>
-                <li>Proven Track Record</li>
+                <li>Expert UI/UX Design Team</li>
+                <li>User-Centered Design Approach</li>
+                <li>Research-Driven Solutions</li>
+                <li>Comprehensive Design Systems</li>
+                <li>Iterative Design Process</li>
+                <li>Proven Track Record in Digital Design</li>
               </ul>
             </div>
 
@@ -46,7 +46,7 @@ export default function AboutPage() {
                 Our Commitment
               </h2>
               <p className="text-muted-foreground">
-                At Beamscoding, we are committed to delivering exceptional IT solutions that drive business growth. Our team of skilled developers and consultants works tirelessly to understand your unique challenges and create tailored solutions that exceed expectations. We pride ourselves on building long-term partnerships and ensuring client success through innovation and technical excellence.
+                At Ufacedesign, we are committed to creating digital experiences that users love. Our team of skilled designers and researchers works tirelessly to understand your users' needs and create interfaces that are both beautiful and functional. We pride ourselves on building long-term partnerships and ensuring client success through innovative design solutions and user experience excellence.
               </p>
             </div>
 
@@ -55,12 +55,12 @@ export default function AboutPage() {
                 Our Services
               </h2>
               <ul className="text-muted-foreground list-disc pl-5 space-y-2">
-                <li>Custom Software Development</li>
-                <li>Web Application Development</li>
-                <li>Mobile App Development</li>
-                <li>IT Consulting</li>
-                <li>Cloud Solutions</li>
-                <li>Digital Transformation</li>
+                <li>User Interface (UI) Design</li>
+                <li>User Experience (UX) Design</li>
+                <li>User Research & Testing</li>
+                <li>Design Systems Development</li>
+                <li>Interactive Prototyping</li>
+                <li>Mobile & Web App Design</li>
               </ul>
             </div>
 
@@ -69,9 +69,9 @@ export default function AboutPage() {
                 Office Location
               </h2>
               <div className="text-muted-foreground">
-                <p>Visit our office:</p>
+                <p>Visit our design studio:</p>
                 <div className="mt-2">
-                  <p>Beamscoding</p>
+                  <p>Ufacedesign</p>
                   <p>Komplek Perkantoran Duta Merlin Blok F13</p>
                   <p>Jalan Gajah Mada, Petojo Utara</p>
                   <p>Gambir, Jakarta Pusat</p>
@@ -103,10 +103,10 @@ export default function AboutPage() {
                 Contact Information
               </h2>
               <div className="text-muted-foreground">
-                <p>Get in touch with us:</p>
+                <p>Let's discuss your design needs:</p>
                 <div className="mt-2 space-y-1">
                   <p>Phone: (021) 50111528</p>
-                  <p>Email: admin@beamscoding.com</p>
+                  <p>Email: admin@Ufacedesign.com</p>
                   <p>WhatsApp: +62 812-7766-8953</p>
                 </div>
               </div>
