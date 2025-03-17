@@ -80,10 +80,11 @@ export default function TermsPage() {
                 <p>For any questions about these Terms of Service, please contact us at:</p>
                 <div className="mt-2">
                   <p>PT CERITA LAMA INDONESIA</p>
-                  <p>Komplek Perkantoran Duta Merlin Blok F13</p>
-                  <p>Jalan Gajah Mada, Petojo Utara</p>
-                  <p>Gambir, Jakarta Pusat</p>
-                  <p>DKI Jakarta, Indonesia</p>
+                  <p>Gedung Is Plaza Lt. 5,</p>
+                  <p>Jl Pramuka Kav 150,</p>
+                  <p>Utan Kayu Utara, Matraman,</p>
+                  <p>Jakarta Timur,</p>
+                  <p>13120</p>
                   <p>Email: admin@Ufacedesign.com</p>
                   <p>Phone: (021) 50111528</p>
                 </div>
