@@ -14,7 +14,7 @@ export default function AboutPage() {
             About Ufacedesign
           </h1>
           <p className="text-sm text-muted-foreground italic mb-8">
-            Your Trusted UI/UX Design Partner in Indonesia
+            Transforming Digital Experiences Through Human-Centered Design
           </p>
 
           <section className="space-y-8">
@@ -23,7 +23,7 @@ export default function AboutPage() {
                 Our Story
               </h2>
               <p className="text-muted-foreground">
-                Founded with a passion for creating exceptional digital experiences, Ufacedesign has emerged as a leading UI/UX design studio in Indonesia. Our journey began with a clear vision: to help businesses connect with their users through intuitive, beautiful, and user-centered design solutions that drive engagement and satisfaction.
+                Ufacedesign was born from a simple belief: great design should solve real problems for real people. As a specialized UI/UX design studio in Indonesia, we've dedicated ourselves to creating digital experiences that not only look beautiful but work intuitively. Our team combines strategic thinking with creative execution to deliver designs that connect with users and drive business growth.
               </p>
             </div>
 
@@ -32,21 +32,21 @@ export default function AboutPage() {
                 Why Choose Us
               </h2>
               <ul className="text-muted-foreground list-disc pl-5 space-y-2">
-                <li>Expert UI/UX Design Team</li>
-                <li>User-Centered Design Approach</li>
-                <li>Research-Driven Solutions</li>
-                <li>Comprehensive Design Systems</li>
-                <li>Iterative Design Process</li>
-                <li>Proven Track Record in Digital Design</li>
+                <li>Deep expertise in UI/UX design across multiple industries</li>
+                <li>Research-driven approach that puts users at the center</li>
+                <li>Comprehensive design systems that scale with your business</li>
+                <li>Collaborative process that involves clients at every step</li>
+                <li>Focus on measurable outcomes and business impact</li>
+                <li>Continuous iteration based on user feedback and data</li>
               </ul>
             </div>
 
             <div>
               <h2 className="text-xl font-semibold text-foreground mb-3">
-                Our Commitment
+                Our Approach
               </h2>
               <p className="text-muted-foreground">
-                At Ufacedesign, we are committed to creating digital experiences that users love. Our team of skilled designers and researchers works tirelessly to understand your users' needs and create interfaces that are both beautiful and functional. We pride ourselves on building long-term partnerships and ensuring client success through innovative design solutions and user experience excellence.
+                We believe that exceptional design emerges from understanding both business goals and user needs. Our process begins with thorough research and discovery, followed by strategic planning, creative design, and rigorous testing. Whether we're designing a mobile app, website, or complex digital product, we focus on creating experiences that are intuitive, accessible, and delightful to use.
               </p>
             </div>
 
@@ -55,12 +55,14 @@ export default function AboutPage() {
                 Our Services
               </h2>
               <ul className="text-muted-foreground list-disc pl-5 space-y-2">
-                <li>User Interface (UI) Design</li>
-                <li>User Experience (UX) Design</li>
-                <li>User Research & Testing</li>
-                <li>Design Systems Development</li>
-                <li>Interactive Prototyping</li>
-                <li>Mobile & Web App Design</li>
+                <li>UI Design & Visual Identity</li>
+                <li>UX Research & User Testing</li>
+                <li>Wireframing & Prototyping</li>
+                <li>Mobile App & Website Design</li>
+                <li>Design Systems & Component Libraries</li>
+                <li>UX Writing & Content Strategy</li>
+                <li>Logo Design & Brand Identity</li>
+                <li>Interactive Prototypes & Usability Testing</li>
               </ul>
             </div>
 
@@ -103,7 +105,7 @@ export default function AboutPage() {
                 Contact Information
               </h2>
               <div className="text-muted-foreground">
-                <p>Let's discuss your design needs:</p>
+                <p>Ready to transform your digital experience?</p>
                 <div className="mt-2 space-y-1">
                   <p>Phone: (021) 50111528</p>
                   <p>Email: admin@Ufacedesign.com</p>
