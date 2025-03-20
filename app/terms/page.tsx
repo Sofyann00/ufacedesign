@@ -14,7 +14,7 @@ export default function TermsPage() {
             Terms of Service
           </h1>
           <p className="text-sm text-muted-foreground italic mb-8">
-            Last Updated: June 15, 2024
+            Last Updated: January 15, 2025
           </p>
 
           <section className="space-y-8">
