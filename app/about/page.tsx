@@ -107,7 +107,7 @@ export default function AboutPage() {
               <div className="text-muted-foreground">
                 <p>Ready to transform your digital experience?</p>
                 <div className="mt-2 space-y-1">
-                  <p>Phone: 021-50111528</p>
+                  <p>Phone: 087724191186</p>
                   <p>Email: admin@ufacedesign.com</p>
                   <p>WhatsApp: 087724191186</p>
                 </div>

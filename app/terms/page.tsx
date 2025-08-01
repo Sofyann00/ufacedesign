@@ -114,7 +114,7 @@ export default function TermsPage() {
                 <p>Jakarta Timur,</p>
                 <p>13120</p>
                 <p>Email: admin@Ufacedesign.com</p>
-                <p>Phone: (021) 50111528</p>
+                <p>Phone: 087724191186</p>
               </div>
             </div>
           </section>

@@ -131,7 +131,7 @@ export default function PrivacyPage() {
                 <p>Jakarta Timur,</p>
                 <p>13120</p>
                 <p>Email: support@Ufacedesign.com</p>
-                <p>Phone: (021) 50111528</p>
+                <p>Phone: 087724191186</p>
               </div>
             </div>
           </section>
